@@ -21,7 +21,7 @@
 #SBATCH --mail-user=brinton@cs.stanford.edu
 
 # Source lmod script
-source /share/usr/lmod/lmod/init/bash
+source /usr/share/lmod/lmod/init/bash
 
 # Load cudnn
 module load cudnn
