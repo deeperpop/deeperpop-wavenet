@@ -29,5 +29,9 @@ module load cudnn
 # Activate virtualenv (which contains tensorflow)
 source ../bin/activate
 
+# Set LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/farmshare/software/free/cudnn/6.0/lib64/:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH"
+
 # Execute training script
 source train.sh
