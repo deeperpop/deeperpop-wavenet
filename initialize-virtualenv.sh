@@ -14,3 +14,8 @@ pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/protob
 # Install tensorflow
 pip install --upgrade tensorflow-gpu
 
+# Install librosa
+pip install --upgrade librosa
+
+# Deactivate the virtual environment
+deactivate
