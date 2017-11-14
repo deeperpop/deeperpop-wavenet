@@ -13,7 +13,7 @@ SAMPLE_PATH="$OUTPUT_PATH/$SAMPLE_NUMBER"
 mkdir "$SAMPLE_PATH"
 
 # Perform generation
-python "$TENSORFLOW_WAVENET_PATH/generate.py" \
+python "${TENSORFLOW_WAVENET_PATH}generate.py" \
     --samples 160000 \
     --logdir "$SAMPLE_PATH" \
     --wav_seed "$SEED_PATH" \
