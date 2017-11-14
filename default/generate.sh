@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Declare variables (parameters)
 TENSORFLOW_WAVENET_PATH="/farmshare/user_data/connorb3/deeperpop/deeperpop-wavenet/tensorflow-wavenet/"
-MODEL_PATH="/farmshare/user_data/connorb3/deeperpop/model/default/06/"
+MODEL_PATH="/farmshare/user_data/connorb3/deeperpop/model/default/"
 SEED_PATH="/farmshare/user_data/connorb3/deeperpop/data/wav/seeds/seed1.wav"
-OUTPUT_PATH="/farmshare/user_data/connorb3/deeperpop/results/default/06/"
+OUTPUT_PATH="/farmshare/user_data/connorb3/deeperpop/results/default/"
 
 # Select sample number
 SAMPLE_NUMBER="1"
