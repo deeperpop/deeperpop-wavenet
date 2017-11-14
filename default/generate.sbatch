@@ -10,7 +10,7 @@
 
 # Partition parameters
 #SBATCH --partition=gpu
-#SBATCH --time=0:30:00
+#SBATCH --time=1:00:00
 
 # GPU parameters
 #SBATCH --cpus-per-task=1 --cores-per-socket=1 --gres=gpu:1
