@@ -2,6 +2,7 @@
 # Declare variables (parameters)
 TENSORFLOW_WAVENET_PATH="/farmshare/user_data/connorb3/deeperpop/deeperpop-wavenet/tensorflow-wavenet/"
 MODEL_PATH="/farmshare/user_data/connorb3/deeperpop/model/default/06/"
+SEED_PATH="/farmshare/user_data/connorb3/deeperpop/data/wav/seeds/seed1.wav"
 OUTPUT_PATH="/farmshare/user_data/connorb3/deeperpop/results/default/06/"
 
 # Select sample number
@@ -15,5 +16,6 @@ mkdir "$SAMPLE_PATH"
 python "$TENSORFLOW_WAVENET_PATH/generate.py" \
     --samples 160000 \
     --logdir "$SAMPLE_PATH" \
+    --wav_seed "$SEED_PATH" \
     --wav_out_path "$SAMPLE_PATH/sample.wav" \
     "${MODEL_PATH}model.ckpt-99999"
