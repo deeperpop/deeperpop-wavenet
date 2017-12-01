@@ -4,4 +4,4 @@ python ../tensorflow-wavenet/train.py \
   --silence_threshold 0.0 \
   --learning_rate 0.00001 \
   --logdir /farmshare/user_data/connorb3/deeperpop/model/stretched-superslow/ \
-  --save_every 200
+  --checkpoint_every 200
