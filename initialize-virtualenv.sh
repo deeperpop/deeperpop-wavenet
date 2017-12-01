@@ -17,5 +17,14 @@ pip install --upgrade tensorflow-gpu
 # Install librosa
 pip install --upgrade librosa
 
+# Install pandas
+pip install --upgrade pandas
+
+# Install matplotlib
+pip install --upgrade matplotlib
+
+# Install seaborn
+pip install --upgrade seaborn
+
 # Deactivate the virtual environment
 deactivate
