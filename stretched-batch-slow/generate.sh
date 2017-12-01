@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Declare variables (parameters)
-MODEL_NAME="stretched-batch16-slow"
+MODEL_NAME="stretched-batch-slow"
 TENSORFLOW_WAVENET_PATH="/farmshare/user_data/connorb3/deeperpop/deeperpop-wavenet/tensorflow-wavenet/"
 MODEL_PATH="/farmshare/user_data/connorb3/deeperpop/model/$MODEL_NAME/"
 SEED_PATH="/farmshare/user_data/connorb3/deeperpop/data/wav/seeds/seed1.wav"

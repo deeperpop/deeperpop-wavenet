@@ -3,7 +3,7 @@
 ## SBATCH Parameters ##
 #######################
 # Job parameters
-#SBATCH --job-name=tf-wavenet-stretched-batch16-slow-generate
+#SBATCH --job-name=tf-wavenet-stretched-batch-slow-generate
 #SBATCH --output=generate.log
 #SBATCH --open-mode=append
 #SBATCH --dependency=singleton
